@@ -1,0 +1,4 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>CMRS</title></head><body><script>
+const u=JSON.parse(localStorage.getItem('cmrs_user')||'null');
+location.replace(u&&localStorage.getItem('cmrs_token')?({USER:'user',ADMIN:'admin',STAFF:'staff'}[u.role])+'/dashboard.html':'login.html');
+</script></body></html>

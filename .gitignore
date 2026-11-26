@@ -1,0 +1,8 @@
+.vscode/
+.idea/
+target/
+uploads/
+*.log
+Thumbs.db
+application-local.properties
+*.zip
